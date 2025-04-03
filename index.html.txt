@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenScape Landscaping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>GreenScape Landscaping</h1>
+        <p>Transforming Your Outdoor Spaces</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Lawn Care</li>
+            <li>Garden Design</li>
+            <li>Tree Trimming</li>
+            <li>Outdoor Lighting</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="landscape1.jpg" alt="Beautiful garden">
+        <img src="landscape2.jpg" alt="Lawn care">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GreenScape Landscaping</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
